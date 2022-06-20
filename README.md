@@ -1,6 +1,6 @@
 # Homepage of FastKLEE
 
-Also, please check out our video demonstration of FastKLEE
+Also, please check out our [video demonstration](https://youtu.be/fjV_a3kt-mo) of FastKLEE
 
 
 The tool FastKLEE has been tested on Ubuntu 18.04 and hasn’t been tested on other platforms up to now, so Ubuntu 18.04 is preferred.
