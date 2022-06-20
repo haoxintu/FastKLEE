@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -O0 -g -rdynamic CMakeFiles/not.dir/not.cpp.o -o ../bin/not  /home/haoxin/disk-smu/research/packages/llvm-10.0-obj/lib/libLLVMSupport.a /home/haoxin/disk-smu/research/packages/llvm-10.0-obj/lib/libLLVMDemangle.a -lrt -ldl -ltinfo -lpthread -lm -lrt -ldl -ltinfo -lpthread -lm 

@@ -1,0 +1,112 @@
+
+*********CallGraph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+CalRetPairInCycle   0
+MaxNodeInCycle      0
+NodeInCycle         0
+TotalEdge           6
+TotalCycle          0
+TotalNode           10
+#######################################################
+
+*********General Stats***************
+################ (program : )###############
+BBWith3Succ         0
+StoresNum           28
+FSObjNum            30
+AddrsNum            40
+TotalFieldObjects   1
+GepsNum             10
+LocalVarInRecur     0
+FIObjNum            1
+LoadsNum            33
+MaxStructSize       2
+TotalPAGEdges       305
+TotalPointers       171
+ReturnsNum          2
+VarArrayObj         0
+CopysNum            10
+ConstArrayObj       0
+CallsNum            2
+TotalObjects        32
+FunctionObjs        10
+TotalPTAPAGEdges    72
+GlobalObjs          4
+HeapObjs            4
+StackObjs           13
+ConstStructObj      0
+BBWith2Succ         4
+VarStructObj        0
+TotalCallSite       6
+NonPtrObj           22
+IndCallSites        0
+BitCastNumber       3
+-------------------------------------------------------
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgIn/OutEdge       0.977273
+AvgIn/OutAddrEdge   0.329545
+AvgIn/OutLoadEdge   0.170455
+AvgIn/OutCopyEdge   0.375
+MaxInAddrEdge       1
+MaxOutStoreEdge     3
+NumOfCGNode         210
+TotalValidNode      88
+AvgIn/OutStoreEdge  0
+TotalValidObjNode   29
+NumOfGeps           10
+NumOfCGEdge         57
+NumOfAddrs          29
+MaxOutAddrEdge      1
+NumOfLoads          15
+NumOfStores         9
+MaxOutLoadEdge      5
+NumOfCopys          23
+MaxOutCopyEdge      6
+MaxInStoreEdge      2
+MaxInLoadEdge       3
+MaxInCopyEdge       2
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgTopLvlPtsSize    1
+AvgPtsSetSize       0.313364
+LoadStoreTime       0
+CollapseTime        0
+UpdateCGTime        0
+CopyGepTime         0.001
+SCCMergeTime        0.001
+SCCDetectTime       0.003
+TotalTime           0.006
+PointsToBlkPtr      0
+NullPointer         0
+NumOfSCCDetect      3
+IndCallSites        0
+PointsToConstPtr    0
+MaxPtsSetSize       1
+DYFieldObjs         1
+MemObjects          32
+Pointers            171
+NumOfFieldExpand    0
+DYFieldPtrs         0
+NumOfSFRs           0
+TotalCycleNum       1
+IndEdgeSolved       0
+GepProcessed        10
+MaxNodesInSCC       8
+LoadProcessed       15
+CopyProcessed       25
+NodesInCycles       8
+Iterations          3
+StoreProcessed      9
+AddrProcessed       31
+TotalObjects        33
+TotalPWCCycleNum    0
+TotalPointers       171
+#######################################################

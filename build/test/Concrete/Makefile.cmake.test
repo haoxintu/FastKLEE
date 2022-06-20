@@ -1,0 +1,48 @@
+#===------------------------------------------------------------------------===#
+#
+#                     The KLEE Symbolic Virtual Machine
+#
+# This file is distributed under the University of Illinois Open Source
+# License. See LICENSE.TXT for details.
+#
+#===------------------------------------------------------------------------===#
+#
+# AUTOMATICALLY GENERATED. DO NOT EDIT!
+#
+#===------------------------------------------------------------------------===#
+LLVMCC := /home/haoxin/disk-smu/research/packages/llvm-10.0-obj/bin/clang -I/home/haoxin/disk-smu/research/klee-ccured/include
+LLVMAS := /home/haoxin/disk-smu/research/packages/llvm-10.0-obj/bin/llvm-as
+LLVMLINK := /home/haoxin/disk-smu/research/packages/llvm-10.0-obj/bin/llvm-link
+LLVMCC.CFlags := -O0 -Xclang -disable-O0-optnone -Wall
+
+# Make sure source files can match the pattern rules
+VPATH := /home/haoxin/disk-smu/research/klee-ccured/test/Concrete
+
+Output/.dir:
+	mkdir -p $@
+
+clean::
+	-rm -rf Output/
+
+Output/%.bc: %.c Output/.dir
+	$(LLVMCC) -emit-llvm -c $(LLVMCC.CFlags) $< -o $@
+
+Output/%.bc: %.ll $(LLVMAS) Output/.dir
+	$(LLVMAS) -f $< -o $@
+
+# We build a separate testingUtils bitcode for each test, to make sure parallel
+# tests don't interact with one another.
+Output/%_testingUtils.bc: _testingUtils.c Output/.dir
+	$(LLVMCC) -emit-llvm -c $(LLVMCC.CFlags) $< -o $@
+
+Output/linked_%.bc: Output/%.bc Output/%_testingUtils.bc
+	$(LLVMLINK) $< Output/$*_testingUtils.bc -o $@
+
+.PRECIOUS: Output/.dir
+
+## Cancel built-in implicit rules that override above rules
+%: %.s
+
+%: %.c
+
+%.o: %.c
