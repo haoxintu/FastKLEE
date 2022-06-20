@@ -1,1 +1,0 @@
-/home/haoxin/disk-smu/research/packages/llvm-10.0-obj/bin/clang  -I/home/haoxin/disk-smu/research/klee-ccured/include -I/home/haoxin/disk-smu/research/klee-ccured/build/include -emit-llvm -std=gnu89 -D_DEBUG -D_GNU_SOURCE -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -O0 -Xclang -disable-O0-optnone -g -Wall -Wwrite-strings

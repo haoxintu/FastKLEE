@@ -1,5 +1,0 @@
-/home/haoxin/disk-smu/research/klee-ccured/build/runtime/runtime_build_Debug+Asserts/POSIX/misc.bc: \
-  /home/haoxin/disk-smu/research/klee-ccured/runtime/POSIX/misc.c \
-  /home/haoxin/disk-smu/research/klee-ccured/include/klee/klee.h
-
-/home/haoxin/disk-smu/research/klee-ccured/include/klee/klee.h:

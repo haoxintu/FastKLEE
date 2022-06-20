@@ -1,5 +1,0 @@
-/home/haoxin/disk-smu/research/klee-ccured/build/runtime/runtime_build_Debug+Asserts/POSIX/illegal.bc: \
-  /home/haoxin/disk-smu/research/klee-ccured/runtime/POSIX/illegal.c \
-  /home/haoxin/disk-smu/research/klee-ccured/include/klee/klee.h
-
-/home/haoxin/disk-smu/research/klee-ccured/include/klee/klee.h:

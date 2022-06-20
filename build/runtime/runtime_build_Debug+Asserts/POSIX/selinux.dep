@@ -1,5 +1,0 @@
-/home/haoxin/disk-smu/research/klee-ccured/build/runtime/runtime_build_Debug+Asserts/POSIX/selinux.bc: \
-  /home/haoxin/disk-smu/research/klee-ccured/runtime/POSIX/selinux.c \
-  /home/haoxin/disk-smu/research/klee-ccured/build/include/klee/Config/config.h
-
-/home/haoxin/disk-smu/research/klee-ccured/build/include/klee/Config/config.h:
