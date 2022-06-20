@@ -57,5 +57,4 @@ fastklee --simplify-sym-indices --write-cvcs --write-cov --output-module \
 ## Evaluation Results
 
 
-<img width="368" alt="fastklee-results" src="https://user-images.githubusercontent.com/65850329/174615023-060395aa-0893-410e-aa5f-10c286857540.png">
-
+![](./fastklee-results.png)
