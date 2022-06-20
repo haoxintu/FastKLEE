@@ -1,5 +1,8 @@
 # Homepage of FastKLEE
 
+**FastKLEE** is a tool that ...
+
+
 Also, please check out our [video demonstration](https://youtu.be/fjV_a3kt-mo) of FastKLEE
 
 
@@ -10,7 +13,15 @@ The tool FastKLEE has been tested on Ubuntu 18.04 and hasn’t been tested on ot
 ## Installation
 
 
-To install FastKLEE, users could execute `./setup.sh` to set up both Ccured type inference system and the FastKLEE symbolic execution engine.
+To install FastKLEE, users could execute 
+
+```
+https://github.com/haoxintu/FastKLEE
+cd FastKLEE
+./setup.sh
+```
+
+to set up both Ccured type inference system and the FastKLEE symbolic execution engine.
 
 After installing the tool, copy the instrument file `neschecklib.bc` and the ccured analysis library `libccured.so` to the testing folder (`./examples/fastklee-test` in this tutorial).
 
