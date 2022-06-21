@@ -24,7 +24,7 @@ cd FastKLEE
 
 to set up both Ccured type inference system and the FastKLEE symbolic execution engine.
 
-After installing the tool, cope the instrument file `neschecklib.bc` and the ccured analysis library `libccured.so` to the testing folder (`examples/fastklee-test` in this demo) and follow the following steps to perform testing.
+After installing the tool, copy the instrument file `neschecklib.bc` and the ccured analysis library `libccured.so` to the testing folder (`examples/fastklee-test` in this demo) and follow the following steps to perform testing.
 
 ## 1. Compile source code to the intermediate representation (IR)
 
