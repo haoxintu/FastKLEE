@@ -17,7 +17,7 @@ The tool FastKLEE has been tested on Ubuntu 18.04 and hasn’t been tested on ot
 To install FastKLEE, users could execute 
 
 ```
-https://github.com/haoxintu/FastKLEE
+git clone https://github.com/haoxintu/FastKLEE
 cd FastKLEE
 ./setup.sh
 ```
