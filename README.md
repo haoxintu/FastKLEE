@@ -79,6 +79,9 @@ fastklee --simplify-sym-indices --write-cvcs --write-cov --output-module \
 $./run-fastklee.sh
 ```
 
+**Note that the scripts used in this demo can be easily combined to be one to perform automated testing, we separate them when going through the demo only for the sake of the clear demonstration.**
+
+
 ## Evaluation Results
 
 Evaluation results demonstrate that **FastKLEE** is able to reduce by up to 9.1% (5.6% on average) as the state-of-the-art approach KLEE in terms of the time to explore the same number (i.e., 10k) of execution paths.
