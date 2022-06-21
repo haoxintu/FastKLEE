@@ -4,7 +4,7 @@
 * The number of interpreted instructions tends to be stupendous (usually several billion only in one hour’s run)
 * Only a small portion of pointers need bound checking during execution and reducing the interpreting overhead of most frequently interpreted ones (i.e., load/store instruction) could accelerate symbolic execution.
 
-In terms of implementation, **FastKLEE** combines the notable type inference system Ccured and the well-known symbolic execution [KLEE](https://github.com/klee/klee) to perform faster symbolic execution.
+In terms of implementation, **FastKLEE** combines the notable type inference system [Ccured](https://people.eecs.berkeley.edu/~necula/Papers/ccured_popl02.pdf) and the well-known symbolic execution [KLEE](https://github.com/klee/klee) to perform faster symbolic execution.
 
 Please kindly check out our [video demonstration](https://youtu.be/fjV_a3kt-mo) of **FastKLEE**.
 
