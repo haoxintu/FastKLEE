@@ -34,7 +34,7 @@ For a single test program (e.g., `test.c`), users can get IR by executing
 $clang -emit-llvm -c test.c -o test.bc
 ```
 
-For more complex test programs (e.g., GNU Coreutils used in the paper), we recommend users to follow the [officical document](http://klee.github.io/tutorials/testing-coreutils/) from KLEE to get their IR code file.
+For more complex test programs (e.g., GNU Coreutils used in the paper), we recommend users to follow the [official document](http://klee.github.io/tutorials/testing-coreutils/) from KLEE to get their IR code file.
 
 Up to now, we assume users have obtained the test program and compiled it into IR code already. We take the `cat` test program in GNU Coreutils as an example to illustrate the core usabilities of **FastKLEE**.
 
