@@ -60,7 +60,7 @@ $./run-type-inference-system.sh
 
 ## 4. Conduct faster symbolic execution
 
-Now, users can run **FastKLEE** to perform faster symbolic execution.
+Now, users can run **FastKLEE** to perform faster symbolic execution. Users could also change the options (e.g., timeout) to set up different experiments for their own purpose.
 
 ```
 $cat run-fastklee.sh
