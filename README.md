@@ -49,7 +49,7 @@ $./run-instrumentation.sh
 ```
 ## 3. Type inference and produce CheckList
 
-Use the compiler tool-chain `opt` to load `libccured.so` library and perform type inference analysis. This process will produce a text file `cat-checklist.txt` that records all *unsafe* pointers in `cat.bc`. Such a checking list file will be used in the following process.
+Use the compiler tool-chain `opt` to load `libccured.so` library and perform type inference analysis. This process will produce a text file `cat-checklist.txt` that records all the *unsafe* pointers in `cat.bc`. Such a checking list file will be used in the following process.
  
 ```
 $cat run-type-inference-system.sh
