@@ -59,6 +59,9 @@ $./run-type-inference-system.sh
 
 
 ## 4. Conduct faster symbolic execution
+
+Now, users can run **FastKLEE** to perform faster symbolic execution.
+
 ```
 $cat run-fastklee.sh
 fastklee --simplify-sym-indices --write-cvcs --write-cov --output-module \
